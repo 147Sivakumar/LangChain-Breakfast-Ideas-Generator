@@ -99,4 +99,15 @@ breakfast/
 
 ---
 
-Created as part of the *Learn. Build. Operate.* assignment.
+## Key Learnings
+
+* `invoke()` returns an `AIMessage` object.
+* Use `.content` to extract the actual response text.
+* Clear prompt formatting helps control the output.
+* Model responses may vary between runs.
+* API keys should be stored in environment variables.
+
+## Run Comparison
+
+The two runs produced different results, showing that AI-generated responses can vary between executions, even with `temperature=0`. 🚀
+
